@@ -15,7 +15,7 @@ Our goal :
    X_f is equals to 50, Y_f is equals to 100 and Phi_f is equals to 90 degrees.
 3. You can find there are a "trajectory_error" in the code, which is only used for seeing how efficiency of the car reversing.![alt tag](https://user-images.githubusercontent.com/34533532/34325076-dfa78082-e8c1-11e7-8435-5b8213b7e3e9.png)
 
-Parameters : 
+Parameter : 
 1. X is ranges from 0 to 100
 2. Y is ranges from 0 to 100
 3. Phi is ranges from -90 to 270 degrees
