@@ -22,7 +22,7 @@ Parameter :
 4. Theta(represented as the angle of the tire can rotate) is ranges from -30 to 30 degrees
 
 Insight : 
-1. The probability of mutation should be large. Otherwise, every gene will be same as each other when evolving.
+1. The probability of mutation should be high. Otherwise, every gene will be same as each other when evolving.
 2. Always retaining the outsanding gene seems to be a good way.
 
 Learning Curve : 
