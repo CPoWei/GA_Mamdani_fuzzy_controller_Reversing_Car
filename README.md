@@ -1,4 +1,4 @@
-# GA reversing car with mamdani type fuzzy controller
+# GA in reversing car with mamdani type fuzzy controller
 Train fuzzy controller with Genetic Algorithm for reversing car
 
 Overview : 
