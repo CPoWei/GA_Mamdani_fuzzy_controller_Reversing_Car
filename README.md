@@ -1,5 +1,5 @@
-# GA Reversing Truck with mamdani type fuzzy controller
-Train fuzzy controller with Genetic Algorithm for reversing truck
+# GA reversing car with mamdani type fuzzy controller
+Train fuzzy controller with Genetic Algorithm for reversing car
 
 Overview : 
 1. Here is mamdani type fuzzy control model.
