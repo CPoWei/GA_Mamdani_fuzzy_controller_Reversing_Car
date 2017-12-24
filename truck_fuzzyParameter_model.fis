@@ -1,0 +1,83 @@
+[System]
+Name='truck_fuzzyParameter_model'
+Type='mamdani'
+Version=2.0
+NumInputs=2
+NumOutputs=1
+NumRules=35
+AndMethod='min'
+OrMethod='max'
+ImpMethod='min'
+AggMethod='max'
+DefuzzMethod='centroid'
+
+[Input1]
+Name='X'
+Range=[0 100]
+NumMFs=5
+MF1='LE':'gaussmf',[0 0]
+MF2='LC':'gaussmf',[0 0]
+MF3='CE':'gaussmf',[0 0]
+MF4='RC':'gaussmf',[0 0]
+MF5='RI':'gaussmf',[0 0]
+
+[Input2]
+Name='Phi'
+Range=[-90 270]
+NumMFs=7
+MF1='RU':'gaussmf',[0 0]
+MF2='VE':'gaussmf',[0 0]
+MF3='LU':'gaussmf',[0 0]
+MF4='RB':'gaussmf',[0 0]
+MF5='RV':'gaussmf',[0 0]
+MF6='LV':'gaussmf',[0 0]
+MF7='LB':'gaussmf',[0 0]
+
+[Output1]
+Name='Theta'
+Range=[-30 30]
+NumMFs=7
+MF1='NM':'gaussmf',[0 0]
+MF2='ZE':'gaussmf',[0 0]
+MF3='PM':'gaussmf',[0 0]
+MF4='NB':'gaussmf',[0 0]
+MF5='NS':'gaussmf',[0 0]
+MF6='PS':'gaussmf',[0 0]
+MF7='PB':'gaussmf',[0 0]
+
+[Rules]
+1 4, 6 (1) : 1
+1 1, 5 (1) : 1
+1 5, 1 (1) : 1
+1 2, 1 (1) : 1
+1 6, 4 (1) : 1
+1 3, 4 (1) : 1
+1 7, 4 (1) : 1
+2 4, 3 (1) : 1
+2 1, 6 (1) : 1
+2 5, 5 (1) : 1
+2 2, 1 (1) : 1
+2 6, 1 (1) : 1
+2 3, 4 (1) : 1
+2 7, 4 (1) : 1
+3 4, 3 (1) : 1
+3 1, 3 (1) : 1
+3 5, 6 (1) : 1
+3 2, 2 (1) : 1
+3 6, 5 (1) : 1
+3 3, 1 (1) : 1
+3 7, 1 (1) : 1
+4 4, 7 (1) : 1
+4 1, 7 (1) : 1
+4 5, 3 (1) : 1
+4 2, 3 (1) : 1
+4 6, 6 (1) : 1
+4 3, 5 (1) : 1
+4 7, 1 (1) : 1
+5 4, 7 (1) : 1
+5 1, 7 (1) : 1
+5 5, 7 (1) : 1
+5 2, 3 (1) : 1
+5 6, 3 (1) : 1
+5 3, 6 (1) : 1
+5 7, 5 (1) : 1
