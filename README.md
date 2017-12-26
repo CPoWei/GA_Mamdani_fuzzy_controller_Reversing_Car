@@ -1,7 +1,7 @@
 # GA in reversing car with mamdani type fuzzy controller
 Train fuzzy controller with Genetic Algorithm for reversing car
 
-Overview : 
+Introduction : 
 1. Here is mamdani type fuzzy control model.
 2. The file called “MAMDANIwithGA.m” is the main code.
 3. Following the main code guide, the GA will start to evolve our fuzzy controller to reach our goal!
